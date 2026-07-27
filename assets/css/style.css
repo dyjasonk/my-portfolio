@@ -353,7 +353,14 @@ main { min-height: calc(100vh - var(--header-h) - 200px); }
   color: var(--muted);
   opacity: 0.6;
 }
-
+/* card with real image*/
+.card-img-wrap { background: #000; overflow: hidden;}
+.card-img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   display: block;
+}
 .card h4 {
   font-family: var(--font-display);
   font-size: 1.12rem;
